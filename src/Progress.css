@@ -1,0 +1,36 @@
+.progress-page {
+    padding: 40px;
+}
+
+.progress-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.chart-container {
+    width: 50%;          /* smaller width */
+    max-width: 600px;    /* limit max size */
+    margin: 0 auto;      /* center it */
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+}
+.overall-performance {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.overall-box {
+    font-size: 40px;
+    font-weight: bold;
+    color: #4CAF50;
+    margin: 15px auto;
+    padding: 20px;
+    width: 200px;
+    background: #f1f8e9;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}

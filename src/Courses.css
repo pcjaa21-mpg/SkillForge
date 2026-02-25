@@ -1,0 +1,82 @@
+.courses-page {
+    padding: 30px;
+    background: #f4f6f9;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.courses-table {
+    margin-top: 30px;
+}
+
+.course-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 20px 30px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    transition: 0.3s;
+}
+
+.course-row:hover {
+    transform: scale(1.01);
+}
+
+.course-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.course-number {
+    font-weight: bold;
+    font-size: 18px;
+    color: #2563eb;
+}
+
+.course-name {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* View Details Button */
+.view-button button {
+    background: linear-gradient(45deg, #2563eb, #7c3aed);
+    color: white;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.view-button button:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+/* Header layout */
+.courses-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Back button style */
+.back-btn {
+    padding: 8px 16px;
+    background-color: #3F51B5;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.back-btn:hover {
+    background-color: #2c3ea8;
+}
